@@ -9,7 +9,9 @@
 | Home Page | Add Recipe | Dark Mode |
 |----------|------------|-----------|
 | ![Home](![Screenshot_2025-07-16-10-06-06-19_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/df2d38e3-4b93-425a-a8f7-cdcb4fe54197)
-) | ![Add](https://via.placeholder.com/300x200.png?text=Add+Recipe) | ![Dark](https://via.placeholder.com/300x200.png?text=Dark+Mode) |
+) | ![Add](![Screenshot_2025-07-16-10-06-10-61_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/22791617-fac8-415f-af16-234a39939f42)
+) | ![Dark](![Screenshot_2025-07-16-10-06-02-18_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/96d2a334-bd50-49eb-8040-b9d985255f37)
+) |
 
 
 ---

@@ -46,7 +46,7 @@
 
 | Name          | GitHub                            | Email                |
 |---------------|-----------------------------------|----------------------|
-| Mihir Shrestha | [@luci42](https://github.com/luci42) | your-email@example.com |
+| Mihir Shrestha | [@MihiRrr24](https://github.com/MihiRrr24) | mihirshrestha4@gmail.com |
 
 ---
 
@@ -64,7 +64,7 @@
 ## 🚧 Installation & Running Locally
 
 ```bash
-git clone https://github.com/luci42/recipe-organizer.git
+git clone https://github.com/MihiRrr24/RecipeApp.git
 cd recipe-organizer
 npm install
 npx expo start

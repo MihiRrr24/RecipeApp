@@ -8,8 +8,8 @@
 
 | Home Page | Add Recipe | Dark Mode |
 |----------|------------|-----------|
-| ![Home](https://via.placeholder.com/300x200.png?text=Home) | ![Add](https://via.placeholder.com/300x200.png?text=Add+Recipe) | ![Dark](https://via.placeholder.com/300x200.png?text=Dark+Mode) |
-![WhatsApp Image 2025-07-15 at 09 31 26](https://github.com/user-attachments/assets/df2f73d5-ca33-46db-8938-8c5b60ca316b)
+| ![Home](![Screenshot_2025-07-16-10-06-06-19_f73b71075b1de7323614b647fe394240](https://github.com/user-attachments/assets/df2d38e3-4b93-425a-a8f7-cdcb4fe54197)
+) | ![Add](https://via.placeholder.com/300x200.png?text=Add+Recipe) | ![Dark](https://via.placeholder.com/300x200.png?text=Dark+Mode) |
 
 
 ---

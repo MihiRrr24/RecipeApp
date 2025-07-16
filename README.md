@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+# 🚀 Recipe Organizer App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+*A modern mobile app to manage your cooking recipes with images, categories, and local storage — with dark mode and search built-in!*
 
-## Get started
+---
 
-1. Install dependencies
+## 📸 Screenshots
 
-   ```bash
-   npm install
-   ```
+| Home Page | Add Recipe | Dark Mode |
+|----------|------------|-----------|
+| ![Home](https://via.placeholder.com/300x200.png?text=Home) | ![Add](https://via.placeholder.com/300x200.png?text=Add+Recipe) | ![Dark](https://via.placeholder.com/300x200.png?text=Dark+Mode) |
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Purpose of the App
 
-In the output, you'll find options to open the app in a
+> This app is designed for food lovers and cooking enthusiasts to store, manage, and organize their favorite recipes. It allows users to add/edit/delete recipes with images, search them by ingredients, and categorize them as Veg, Dessert, or Non-Veg. The app is built for offline use and supports both light and dark themes.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠 Tech Stack
 
-## Get a fresh project
+- 📱 **Frontend**: React Native (with Expo)
+- 💾 **Local Storage**: AsyncStorage
+- 🧭 **Navigation**: React Navigation (Native Stack)
+- 📷 **Media Access**: Expo Image Picker
+- 🌙 **Dark Mode**: `useColorScheme` + UI toggling
+- 🎨 **Custom Components**: RecipeCard, RecipeForm
 
-When you're ready, run:
+---
+
+## 🧩 Key Features
+
+- 📷 Pick image from gallery for each recipe
+- 🗂️ Category selection (Veg, Dessert, Non-Veg)
+- 🔍 Search by ingredients (real-time filtering)
+- 🌗 Dark mode support
+- 💾 Data persistence using AsyncStorage
+- 🧱 Modular and component-based UI
+- 🖼 Background image support on screens
+- 🧭 Splash screen & custom app icon
+
+---
+
+## 👨‍💻 Author
+
+| Name          | GitHub                            | Email                |
+|---------------|-----------------------------------|----------------------|
+| Mihir Shrestha | [@luci42](https://github.com/luci42) | your-email@example.com |
+
+---
+
+## 📚 What I Learned
+
+- Building real-world mobile apps with React Native and Expo
+- Managing data locally using AsyncStorage
+- Handling image permissions & file URIs in Android
+- Implementing responsive and clean UI with dark/light themes
+- Managing navigation flow and state between screens
+- Generating APKs using EAS Build and sharing them via Drive
+
+---
+
+## 🚧 Installation & Running Locally
 
 ```bash
-npm run reset-project
+git clone https://github.com/luci42/recipe-organizer.git
+cd recipe-organizer
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+> Open the Expo Go app on your Android device and scan the QR code to preview.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📦 Build APK for Android
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+If you're using Expo with EAS:
 
-## Join the community
+```bash
+npm install -g eas-cli
+eas login
+eas build:configure
+eas build -p android --profile preview
+```
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+After build completion, upload the `.apk` to Google Drive and share the link.

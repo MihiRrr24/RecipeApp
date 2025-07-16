@@ -51,6 +51,7 @@
 | Name          | GitHub                            | Email                |
 |---------------|-----------------------------------|----------------------|
 | Mihir Shrestha | [@MihiRrr24](https://github.com/MihiRrr24) | mihirshrestha4@gmail.com |
+| Aditya Kumar   | [@Aadi0828](https://github.com/Aadi0828) | ak8905901@gmail.com |
 
 ---
 
